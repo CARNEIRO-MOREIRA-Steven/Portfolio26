@@ -1,0 +1,12 @@
+nav{
+    background-color: #04071D;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    border: solid 1px #6971a25f;
+    padding: 25px 50px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 50px 0;
+}
