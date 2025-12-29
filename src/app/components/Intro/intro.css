@@ -37,6 +37,8 @@ gap: 25px;
     background-image: url('../../../../public/Background.png');
 }
 .div5 { 
+    background-image: url('../../../../public/backgroundblobservicepng.png');
+    background-repeat: no-repeat;
     grid-area: 7 / 1 / 9 / 4; }
 .div6 { 
     grid-area: 5 / 4 / 9 / 8;

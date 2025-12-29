@@ -1,0 +1,14 @@
+.banner{
+    height: 700px;
+    width: calc(100% - 200px);
+    padding: 100px 100px;
+    max-width: 950px;
+}
+.banner p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.banner h1{
+    font-size: 70px;
+    text-transform: capitalize;
+}

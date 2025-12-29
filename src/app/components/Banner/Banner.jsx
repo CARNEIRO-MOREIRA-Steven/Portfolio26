@@ -1,10 +1,12 @@
 import React from 'react'
+import './banner.css'
 
 const Banner = () => {
   return (
-    <section>
-        <h1>Développeur web Fullstack</h1>
-        <h2>Salut ! Je suis CARNEIRO-MOREIRA Steven, développeur React.js / Next.js</h2>
+    <section className='banner'>
+        <p>Développeur web Fullstack</p>
+        <h1>Développeur passionné <br></br>React.js / Next.js</h1>
+        <h2>Je suis CARNEIRO-MOREIRA Steven, basé à Chauny</h2>
         <a href="">Voir mes projets</a>
     </section>
   )
