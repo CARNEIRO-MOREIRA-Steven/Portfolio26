@@ -1,12 +1,14 @@
 .container-grid {
-width: 100%;
-max-width: 1440px;
-display: grid;
-grid-template-columns: repeat(7, 1fr);
-grid-template-rows: repeat(8, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-gap: 25px;
+    width: 100%;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 25px;
+    width: calc(100% - 200px);
+    padding: 0 100px;
 }
 
 .div1 { 
@@ -17,12 +19,47 @@ gap: 25px;
     border: solid 1px #363749;
     background-size: cover;
     background-image: url('../../../../public/background-pc.png');
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.div1 h2{
+    width: 70%;
+}
+.intro-button, .intro-button2{
+    position: absolute;
+}
+.intro-button{
+    top: 25%;
+    left: 10%;
+}
+.intro-button2{
+    top: 75%;
+    right: 5%;
 }
 .div2 { 
     grid-area: 1 / 5 / 3 / 8;  
     background-color: #04071D;
     border: solid 1px #363749;    
     border-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-image: url('../../../../public/world.png');
+}
+.div1 h2, .div2 h2, .div4 h2, .div6 h2{
+    padding: 25px;
+    font-size: 30px;
+}
+.div3 h2, .div5 h2{
+    padding: 5px 25px;
+    font-size: 30px;
+    z-index: 10;
+}
+.div3 h3, .div6 h3{
+    font-size: 20px;
+    padding: 0 25px;
+    z-index: 10;
 }
 .div3 { 
     grid-area: 3 / 5 / 5 / 8;
@@ -31,16 +68,95 @@ gap: 25px;
     border-radius: 25px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    overflow: hidden;
 }
+.div3 div{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    position: relative;
+}
+.div3 aside {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+}
+
+.container-stack-grid span {
+    background-color: #10132E;
+    color: white;
+    border-radius: 5px;
+    height: 60px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div3 .container-stack-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 10px; 
+}
+.container-stack-grid span:nth-child(2) { margin-top: -10px; }
+.container-stack-grid span:nth-child(4) { margin-top: -10px; }
+.container-stack-grid span:nth-child(6) { margin-top: -10px; }
+
+
 .div4 { 
     grid-area: 5 / 1 / 7 / 4;
+    border-radius: 25px;
+    border: solid 1px #363749;
     background-image: url('../../../../public/Background.png');
+    position: relative;
+}
+.div4 h2{
+    width: 70%;
+}
+.div4 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .div5 { 
     background-image: url('../../../../public/backgroundblobservicepng.png');
     background-repeat: no-repeat;
-    grid-area: 7 / 1 / 9 / 4; }
+    border-radius: 25px;
+    border: solid 1px #363749;
+    grid-area: 7 / 1 / 9 / 4; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+.button-mail{
+    padding: 10px 20px;
+    background-color: #10132E;
+    color: #E4ECFF;
+    border: 1px solid #6971a27d;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .div6 { 
     grid-area: 5 / 4 / 9 / 8;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    border: solid 1px #363749;
     background-image: url('../../../../public/Background.png');
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.image-code{
+    width: 500px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
 }
