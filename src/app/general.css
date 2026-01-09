@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     background-color: #04071D;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Montserrat", sans-serif;
 }
 main{
     width: 100%;
@@ -15,4 +18,7 @@ main{
 a{
     color: #FFFFFF;
     text-decoration: none;
+}
+h2{
+    font-size: 30px;
 }
