@@ -38,7 +38,7 @@ h2 span{
     padding: 50px;
     height: 300px;
 }
-.projet img{
+.projet .image-projet{
     object-fit: cover;
     height: calc(100% - 50px);
     rotate: 2deg;
@@ -66,11 +66,25 @@ h2 span{
 }
 .tech-projet img{
     width: 50px;
-    object-fit: cover;
+    height: 40px;
+    object-fit: contain;
+    rotate: 0deg;
+    border-radius: 0;
 }
 .link-projet{
     display: flex;
     width: 100%;
     text-align: end;
     justify-content: flex-end;
+    color: #CBACF9;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.link img{
+    width: 20px;
+    object-fit: cover;
 }

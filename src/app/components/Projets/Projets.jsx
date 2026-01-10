@@ -13,24 +13,42 @@ export default function Projets (){
                 './WordPress-logo.png',
                 './WooCommerce-logo.png',
                 './css3-logo.png',
-                './php-logo.png'
             ],
             link :'https://lerucherresponsabledepicardie.fr/'
         },
         {
             title : "AURA",
             mission : "Développement d'un site internet pour de la souscription d'abonnement d'entretien",
-            image : './Aura-image.png'
+            image : './Aura-image.png',
+            tech : [
+                './typescript-logo.png',
+                './react-logo.png',
+            ],
         },
         {
             title : "Le Moulin de Binard",
             mission : "Intégration d'un site de location de gîte",
-            image : './lemoulindebinard.png'
+            image : './lemoulindebinard.png',
+            tech : [
+                './WordPress-logo.png',
+                './WooCommerce-logo.png',
+                './javascript-logo.png',
+                './php-logo.png',
+                './css3-logo.png',
+            ],
+            link : 'https://moulin-de-binard.fr/',
         },
         {
             title : "L'espace d'un Instant",
             mission : "Création d'un site de réservation pour une maison d'hôtes",
-            image : './lespaced1instant.png'
+            image : './lespaced1instant.png',
+            tech : [
+                './WordPress-logo.png',
+                './WooCommerce-logo.png',
+                './php-logo.png',
+                './css3-logo.png',
+            ],
+            link :'https://lespaced1instant.com/',
         }
     ]
   return (
@@ -52,7 +70,10 @@ export default function Projets (){
                             <img key={index} src={tech} alt="" />
                         ))}
                         </div>
-                        <a href={projet.link} target='blank' className='link-projet'>Vérifier le site en direct</a>
+                        <div className='link'>
+                            <a href={projet.link} target='blank' className='link-projet'>Voir le site en direct</a>
+                            <img src="./arrow-up-right.svg"></img>
+                        </div> 
                         </div>
                     </div>
                 </span>
