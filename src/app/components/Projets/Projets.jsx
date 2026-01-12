@@ -1,6 +1,5 @@
 import React from 'react'
 import './projets.css'
-import { link } from 'fs'
 
 export default function Projets (){
 

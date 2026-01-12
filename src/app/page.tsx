@@ -2,6 +2,7 @@ import Navigation from "./components/Nav/Navigation";
 import Banner from "./components/Banner/Banner";
 import Intro from "./components/Intro/Intro";
 import Projets from "./components/Projets/Projets"
+import Review from "./components/Review/Review";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Banner />
       <Intro />
       <Projets />
+      <Review />
       </main>
   );
 }
