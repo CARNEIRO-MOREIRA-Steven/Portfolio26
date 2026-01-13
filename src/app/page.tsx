@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner";
 import Intro from "./components/Intro/Intro";
 import Projets from "./components/Projets/Projets"
 import Review from "./components/Review/Review";
+import LogoSkills from "./components/LogoSkills/LogoSkills";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Intro />
       <Projets />
       <Review />
+      <LogoSkills />
       </main>
   );
 }
