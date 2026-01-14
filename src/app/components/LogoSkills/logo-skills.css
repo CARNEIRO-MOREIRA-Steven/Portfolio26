@@ -16,3 +16,6 @@
     align-items: center;
     gap: 15px;
 }
+.logo-and-name h2{
+    margin-bottom: 0;
+}

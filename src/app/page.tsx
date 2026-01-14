@@ -5,6 +5,7 @@ import Projets from "./components/Projets/Projets"
 import Review from "./components/Review/Review";
 import LogoSkills from "./components/LogoSkills/LogoSkills";
 import Experience from "./components/Experience/Experience";
+import Approche from "./components/Approche/Approche";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Review />
       <LogoSkills />
       <Experience />
+      <Approche />
       </main>
   );
 }

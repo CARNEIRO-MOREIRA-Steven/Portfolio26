@@ -7,6 +7,10 @@
     align-items: center;
     gap: 25px;
     justify-content: center;
+    background-image: url('../../../../public/background-carre.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 .banner p{
     font-size: 20px;

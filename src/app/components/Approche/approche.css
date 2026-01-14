@@ -1,0 +1,80 @@
+.approche-container{
+    width: calc(100% - 200px);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.approche-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.approche-grid div{
+    background-image: url('../../../../public/background-projet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid 1px #363749;
+    border-radius: 25px;
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    position: relative;
+}
+.surtitle{
+    color: #CBACF9;
+    padding: 15px 25px;
+    border: solid 1px #363749;
+    border-radius: 15px;
+    width: max-content;
+}
+.title{
+    font-size: 25px;
+}
+.approche-detail{
+    color: #BEC1DD;
+}
+/* Affiche les 4 croix uniquement si la carte a la classe "with-cross" */
+.with-cross::before,
+.with-cross::after,
+.with-cross span::before,
+.with-cross span::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../../public/vector-croix.png');
+    background-size: cover;
+    opacity: 40%;
+}
+
+/* Coin haut gauche */
+.with-cross::before {
+    top: -5;
+    left: -5;
+}
+
+/* Coin haut droit */
+.with-cross::after {
+    top: -5;
+    right: -5;
+}
+
+/* Coin bas gauche */
+.with-cross span::before {
+    bottom: -5;
+    left: -5;
+}
+
+/* Coin bas droit */
+.with-cross span::after {
+    bottom: -5;
+    right: -5;
+}

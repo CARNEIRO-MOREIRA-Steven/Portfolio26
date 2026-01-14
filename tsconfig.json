@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "src/app/components/Nav/Navigation.jsx", "src/app/components/Intro/Intro.jsx", "src/app/components/LogoSkills/LogoSkills.jsx"  ],
+, "src/app/components/Nav/Navigation.tsx", "src/app/components/Intro/Intro.tsx", "src/app/components/LogoSkills/LogoSkills.tsx", "src/app/components/Review/Review.tsx"  ],
   "exclude": ["node_modules"]
 }
