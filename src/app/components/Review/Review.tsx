@@ -52,7 +52,7 @@ export default function Reviews() {
   }, []);
 
   return (
-    <div className="reviews-container">
+    <div className="reviews-container" id="avis">
       <h2>Témoignages de <span>clients satisfaits</span></h2>
       <div className="reviews-grid">
         {reviews.map((r, idx) => (
