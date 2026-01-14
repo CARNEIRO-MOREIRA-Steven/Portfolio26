@@ -20,7 +20,7 @@ const Approche = () => {
 }
 ]
   return (
-    <section className='approche-container'>
+    <section className='approche container'>
         <h2>Mon <span>approche</span></h2>
         <div className='approche-grid'>
             {Phases.map((phase, index) =>(

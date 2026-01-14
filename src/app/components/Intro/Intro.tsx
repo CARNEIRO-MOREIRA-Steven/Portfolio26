@@ -59,7 +59,7 @@ const Intro = () => {
         </div>
         <div className='div5'>
             <h2>Vous-souhaitez démarrer un projet ?</h2>
-            <a className='button-mail' onClick={handleCopy}>{copied ? "Copié !" : "Copier mon email"}<img src="./Card.png" alt="" /></a>
+            <a className='button mail' onClick={handleCopy}>{copied ? "Copié !" : "Copier mon email"}<img src="./Card.png" alt="image copier coller" /></a>
         </div>
         <div className='div6'>
             <h2>Création de sites web <br></br> animés et dynamiques</h2>

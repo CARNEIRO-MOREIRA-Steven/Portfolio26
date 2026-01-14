@@ -1,0 +1,17 @@
+.contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../../../public/background-carre.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.contact p{
+    color: #BEC1DD;
+    margin-bottom: 25px;
+}
+.contact img{
+    width: 10px;
+}

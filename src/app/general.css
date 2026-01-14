@@ -22,4 +22,21 @@ a{
 h2{
     font-size: 30px;
     margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    width: calc(100% - 200px);
+    padding: 100px;
+}
+.button{
+    padding: 10px 20px;
+    background-color: #10132E;
+    color: #E4ECFF;
+    border: 1px solid #6971a27d;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
 }
