@@ -10,7 +10,7 @@ const Approche = () => {
 },
 {
     surtitle: 'Phase 2',
-    title: 'Développement du projet',
+    title: 'Développement du \n projet',
     details: 'Une fois le plan validé, je lance ma playlist lofi et je me plonge dans le code. Des premiers écrans au code final, je développe votre projet étape par étape en vous tenant informé de l’avancement.'
 },
 {

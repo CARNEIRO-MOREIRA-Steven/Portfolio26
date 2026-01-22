@@ -35,7 +35,7 @@ h2 span{
     justify-content: center;
     border-radius: 25px;
     width: calc(100% - 100px);
-    padding: 50px;
+    padding: 50px 50px 0 50px;
     height: 300px;
 }
 .projet .image-projet{
@@ -50,9 +50,11 @@ h2 span{
     width: 100%;
     text-align: start;
     background-color: #0c0e23;
+    margin-top: 25px;
 }
 .details-projets h3{
     font-size: 25px;
+    margin-bottom: 10px;
 }
 .details-projets p{
     font-size: 20px;
