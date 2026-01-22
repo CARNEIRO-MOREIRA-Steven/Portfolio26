@@ -27,3 +27,13 @@ footer a{
 .malt-img{
     transform: scale(0.8);
 }
+
+@media screen and (max-width : 767px) {
+    footer{
+        width: calc(100% - 40px);
+        padding: 20px;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+}

@@ -33,3 +33,22 @@
 .experience-content p{
     color: #BEC1DD;
 }
+
+@media screen and (max-width : 767px) {
+    .experience-container{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 40px);
+        padding: 50px 20px;
+    }
+    .experience-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .experience-content{
+        padding: 25px;
+    }
+    .experience-content img{
+        height: 65px;
+    }
+}

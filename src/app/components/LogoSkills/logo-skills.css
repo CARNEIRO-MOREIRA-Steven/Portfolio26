@@ -19,3 +19,16 @@
 .logo-and-name h2{
     margin-bottom: 0;
 }
+@media  screen and (max-width : 767px) {
+    .reviews-container{
+      width: calc(100% - 40px);
+      padding: 50px 20px;
+    }
+    .logo-container{
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+    .logo{
+        height: 40px;
+    }
+}

@@ -30,3 +30,19 @@
   display: flex;
   flex-direction: column;
 }
+@media  screen and (max-width : 767px) {
+    .reviews-container{
+      width: calc(100% - 40px);
+      padding: 50px 20px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+
+    }
+    .reviews-grid{
+      justify-content: flex-start;
+    }
+    .review-card{
+      flex: 0 0 300px;
+    }
+}

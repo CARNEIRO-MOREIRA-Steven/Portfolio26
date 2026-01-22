@@ -133,6 +133,9 @@
     gap: 10px;
     text-align: center;
 }
+.div5 h2{
+    margin-bottom: 0;
+}
 .button{
     padding: 10px 20px;
     background-color: #10132E;
@@ -155,9 +158,51 @@
     justify-content: center;
     flex-direction: column-reverse;
 }
+.div6 h2{
+    z-index: 5;
+}
 .image-code{
     width: 500px;
     position: absolute;
     left: 40%;
     top: 20%;
+    z-index: 0;
+}
+@media  screen and (max-width : 767px) {
+    .container-grid{
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+    .container-grid h2{
+        text-align: start;
+        font-size: 25px;
+    }
+    .div1{
+        height: 350px;
+    }
+    .intro-button{
+    top: 15%;
+    left: 15%;
+    }
+    .intro-button2{
+        top: 80%;
+        right: 5%;
+    }
+    .div3{
+        height: 200px;
+    }
+    .div3 aside{
+        top: 55%;
+    }
+    .div4, .div5{
+        height: 150px;
+    }
+    .div5 h2{
+        text-align: center;
+    }
+    .div6{
+        height: 200px;
+    }
 }

@@ -76,3 +76,18 @@
     bottom: -5;
     right: -5;
 }
+
+@media  screen and (max-width : 767px) {
+    .approche {
+        width: calc(100% - 40px);
+        padding: 50px 20px;
+    }
+    .approche-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .approche-grid div{
+        padding: 25px;
+        height: 250px;
+    }
+}

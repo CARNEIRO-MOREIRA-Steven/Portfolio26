@@ -25,7 +25,7 @@ const LogoSkills = () => {
         {Skills.map((skill, index) => (
           <div key={index} className='logo-and-name'>
             <img src={skill.img} className='logo' alt={'logo ' + skill.name} />
-            <h2>{skill.name}</h2>
+            <h3>{skill.name}</h3>
           </div>
         ))
         }

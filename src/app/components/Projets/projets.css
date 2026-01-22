@@ -90,3 +90,33 @@ h2 span{
     width: 20px;
     object-fit: cover;
 }
+@media  screen and (max-width : 767px) {
+    #projets{
+        width: calc(100% - 40px);
+        padding: 50px 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-projets-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .projet{
+        width: calc(100% - 50px);
+    }
+    .projet div{
+        width: 100%;
+    }
+    .background-projet{
+        height: 200px;
+        padding: 20px;
+        width: calc(100% - 20px);
+    }
+    .image-projet{
+        height: 200px;
+        width: 90%;
+        padding: 0;
+
+    }
+}
