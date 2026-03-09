@@ -23,6 +23,7 @@ export default function Projets (){
                 './typescript-logo.png',
                 './react-logo.png',
             ],
+            link : 'http://aura-pro.fr/'
         },
         {
             title : "Le Moulin de Binard",
