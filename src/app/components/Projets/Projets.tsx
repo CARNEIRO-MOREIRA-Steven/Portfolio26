@@ -11,8 +11,6 @@ export default function Projets (){
     tech : [
         './shopify-logo.png',
         './liquid-logo.png',
-        './javascript-logo.png',
-        './css3-logo.png',
     ],
     link : 'https://casamance-mode.fr/'
 },
