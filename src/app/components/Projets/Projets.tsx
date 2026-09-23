@@ -4,6 +4,30 @@ import './projets.css'
 export default function Projets (){
 
     const myProjets=[
+{
+    title : "Casamance",
+    mission : "Développement & personnalisation d'une boutique e-commerce Shopify",
+    image : './casamance.png',
+    tech : [
+        './shopify-logo.png',
+        './liquid-logo.png',
+        './javascript-logo.png',
+        './css3-logo.png',
+    ],
+    link : 'https://casamance-mode.fr/'
+},
+{
+    title : "Tremplin Entreprendre",
+    mission : "Développement d'un site vitrine interactif avec Next.js",
+    image : './tremplin.png',
+    tech : [
+        './nextjs-logo.png',
+        './react-logo.png',
+        './typescript-logo.png',
+        './javascript-logo.png',
+    ],
+    link : 'https://tremplin-entreprendre.fr/'
+},
         {
             title : "Le Rucher Responsable de Picardie",
             mission : "Développement d'un site vitrine & e-commerce pour un apiculteur",
